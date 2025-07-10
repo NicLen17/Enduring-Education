@@ -111,7 +111,7 @@ const LearningTopicsPage: React.FC = () => {
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Micro-learning Segments</h4>
                 <p className="text-gray-700">
-                  [cite_start]The module content is broken down into digestible 5-10 minute segments[cite: 17]. [cite_start]This "Micro-learning" approach ensures that teachers can fit learning into their busy schedules and optimize retention[cite: 17]. Each segment focuses on a specific sub-topic or skill.
+                  The module content is broken down into digestible 5-10 minute segments. This "Micro-learning" approach ensures that teachers can fit learning into their busy schedules and optimize retention. Each segment focuses on a specific sub-topic or skill.
                 </p>
               </div>
             </li>
@@ -122,7 +122,7 @@ const LearningTopicsPage: React.FC = () => {
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Interactive "Try It Out" Prompts</h4>
                 <p className="text-gray-700">
-                  [cite_start]Within the lessons, users will encounter "Try It Out" prompts[cite: 22]. These are practical exercises or simulations that encourage immediate application of the learned concepts. [cite_start]This action-oriented approach ensures practical application in the classroom[cite: 18].
+                  Within the lessons, users will encounter "Try It Out" prompts. These are practical exercises or simulations that encourage immediate application of the learned concepts. This action-oriented approach ensures practical application in the classroom.
                 </p>
               </div>
             </li>
@@ -133,7 +133,7 @@ const LearningTopicsPage: React.FC = () => {
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Blended Content & Scaffolding</h4>
                 <p className="text-gray-700">
-                  [cite_start]Content is delivered through a rich mix of text, visuals, videos, and customizable templates to cater to diverse learning styles[cite: 19]. [cite_start]The content is also progressively structured, moving from basic concepts to complex applications, ensuring a solid understanding (Scaffolding)[cite: 21].
+                  Content is delivered through a rich mix of text, visuals, videos, and customizable templates to cater to diverse learning styles. The content is also progressively structured, moving from basic concepts to complex applications, ensuring a solid understanding (Scaffolding).
                 </p>
               </div>
             </li>
@@ -144,7 +144,7 @@ const LearningTopicsPage: React.FC = () => {
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Real-time Application & Feedback</h4>
                 <p className="text-gray-700">
-                  [cite_start]Teachers can apply what they learn directly in their classroom and receive immediate feedback[cite: 22]. [cite_start]The app is designed for self-paced learning, allowing teachers to learn on-demand, whenever and wherever it suits them[cite: 20].
+                  Teachers can apply what they learn directly in their classroom and receive immediate feedback. The app is designed for self-paced learning, allowing teachers to learn on-demand, whenever and wherever it suits them.
                 </p>
               </div>
             </li>
@@ -155,7 +155,7 @@ const LearningTopicsPage: React.FC = () => {
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Community Connection</h4>
                 <p className="text-gray-700">
-                  [cite_start]Beyond the lessons, users have the opportunity to connect with other teachers in the same situation[cite: 37]. This fosters a supportive community for sharing insights, challenges, and successes.
+                  Beyond the lessons, users have the opportunity to connect with other teachers in the same situation. This fosters a supportive community for sharing insights, challenges, and successes.
                 </p>
               </div>
             </li>
@@ -166,7 +166,7 @@ const LearningTopicsPage: React.FC = () => {
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Continuous Improvement</h4>
                 <p className="text-gray-700">
-                  [cite_start]Our content is expertly curated, tool-focused, and continuously refined to stay ahead of the curve, based on user feedback[cite: 23, 38]. This ensures that the learning experience remains relevant and cutting-edge.
+                  Our content is expertly curated, tool-focused, and continuously refined to stay ahead of the curve, based on user feedback. This ensures that the learning experience remains relevant and cutting-edge.
                 </p>
               </div>
             </li>

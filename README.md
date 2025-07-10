@@ -1,134 +1,40 @@
-Enduring Education Website
-Table of Contents
-About Enduring Education
+# 🎓 Enduring Education Website
 
-Features
+**Enduring Education** aims to empower university educators with modern teaching tools and digital strategies to bridge the pedagogical gap and reduce student dropout rates.  
+This website serves as the public face of the project, offering a welcome message, pricing details, and a strong call to action to help transform the classroom experience.
 
-Technologies Used
+---
 
-Getting Started
+## 📚 Table of Contents
 
-Prerequisites
+- [About](#about-enduring-education)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-Installation
+---
 
-Running the Application
+## 🧠 About Enduring Education
 
-Project Structure
+Enduring Education is a platform designed to help universities modernize their teaching approaches by:
+- Reducing dropout rates.
+- Promoting student engagement.
+- Empowering educators with digital tools backed by cognitive science and active learning models.
 
-Customization
+---
 
-Contributing
+## ✨ Features
 
-License
+- ✅ **Responsive Navigation Bar** – Easy access to key sections.
+- ✅ **Engaging Welcome Section** – Clear and motivating introduction.
+- ✅ **Clear Pricing Chart** – Free trial, standard, and premium tiers with user-based pricing.
+- ✅ **Call to Action** – Prominent buttons to encourage user engagement.
+- ✅ **Informative Footer** – Policies, copyright, and contact.
+- ✅ **Modern Design** – Bold red, white, yellow, and black palette using Tailwind CSS.
 
-Contact
+---
 
-About Enduring Education
-Enduring Education is dedicated to bridging the pedagogical gap in university systems by empowering educators with modern teaching tools and digital strategies. This website serves as the public face of our mission, providing an inviting welcome, clear pricing information, and a call to action for universities and individual teachers looking to transform the classroom experience and reduce student dropout rates.
+## 🛠 Technologies Used
 
-Our app, built on the Enduring Education Learning Method, offers micro-learning, action-oriented guides, blended content, and self-paced learning, ensuring effective, accessible, and applicable professional development for university teachers.
-
-Features
-Responsive Navigation Bar: Easy access to different sections of the page.
-
-Engaging Welcome Section: Introduces Enduring Education's mission and value proposition.
-
-Clear Pricing Chart: Details free trial, standard, and premium plans with user-based pricing.
-
-Call to Action: Prominent buttons to encourage user engagement and sign-ups.
-
-Informative Footer: Contains copyright information and links to essential policies.
-
-Modern Design: Built with a striking red, white, yellow, and black color palette using Tailwind CSS for a clean and professional look.
-
-Technologies Used
-React: A JavaScript library for building user interfaces.
-
-TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-
-Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
-
-Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-Prerequisites
-Before you begin, ensure you have the following installed:
-
-Git: For version control. You can download it from git-scm.com.
-
-Node.js & npm (or Yarn): Node.js is a JavaScript runtime, and npm (Node Package Manager) is included with it. Yarn is an alternative package manager. You can download Node.js from nodejs.org.
-
-To verify installation, run:
-
-node -v
-npm -v
-# or
-yarn -v
-
-Installation
-Clone the repository:
-
-git clone https://github.com/NicLen17/Enduring-Education.git
-
-Navigate into the project directory:
-
-cd enduring-education
-
-Install dependencies:
-
-npm install
-# or if you prefer Yarn
-yarn install
-
-Running the Application
-To start the development server:
-
-npm start
-# or
-yarn start
-
-This will open the application in your default web browser at http://localhost:3000. The page will reload if you make edits.
-
-Project Structure
-The project is structured into individual React components for better modularity and maintainability:
-
-src/
-├── App.tsx             # Main application component
-├── components/
-│   ├── Navbar.tsx      # Navigation bar component
-│   ├── WelcomeSection.tsx # Hero/Welcome section component
-│   ├── PriceChartSection.tsx # Pricing plans component
-│   └── Footer.tsx      # Footer component
-└── index.tsx           # Entry point for the React application
-└── index.css           # Tailwind CSS directives and global styles
-
-(Note: In a real-world project, you would place Navbar.tsx, WelcomeSection.tsx, etc., into a components subfolder and adjust imports accordingly.)
-
-Customization
-Content: Modify the text content directly within the JSX of each component (WelcomeSection.tsx, PriceChartSection.tsx, etc.).
-
-Styling/Colors: Adjust the Tailwind CSS classes in each component to change colors, spacing, typography, and layout. The primary color palette (red, white, yellow, black) can be found in the Tailwind configuration if you set up custom themes, or directly in the classes.
-
-New Sections: Create new React components for additional sections and integrate them into App.tsx.
-
-Contributing
-Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/YourFeature).
-
-Make your changes.
-
-Commit your changes (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/YourFeature).
-
-Open a Pull Request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details (you would create this file in your project root).
-
-Contact
-For any inquiries or further information, please contact [Your Name/Email/LinkedIn].
+- ⚛️ **React** – For building dynamic UI components.
+- 🟦 **TypeScript** – For type-safe JavaScript development.
+- 🌬 **Tailwind CSS** – For fast, utility-first styling.

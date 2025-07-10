@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
           </a>
           {/* Corrected href to #about-us */}
           <a
-            href="#about-us"
+            href="#about"
             className="text-black hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300"
           >
             About us

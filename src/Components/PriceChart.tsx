@@ -14,13 +14,13 @@ const PriceChartSection: React.FC = () => {
         "Basic community access",
       ],
       buttonText: "Start Free Trial",
-      buttonColor: "bg-red-600 hover:bg-red-700",
+      buttonColor: "bg-yellow-400 hover:bg-yellow-500",
       isFree: true,
     },
     {
       name: "Standard Plan",
-      price: "Starting from",
-      period: "$9.99/month",
+      price: "$9.99", // Moved price here for easier display below period
+      period: "Starting from /month", // Combined text for clarity
       description: "Empower individual teachers with essential tools.",
       features: [
         "Full access to micro-learning modules",
@@ -37,12 +37,12 @@ const PriceChartSection: React.FC = () => {
         { users: "More than 100 users", price: "Custom Price" },
       ],
       buttonText: "Choose Standard",
-      buttonColor: "bg-yellow-500 text-black hover:bg-yellow-600",
+      buttonColor: "bg-red-600 text-black hover:bg-red-700",
     },
     {
       name: "Premium Plan",
-      price: "Starting from",
-      period: "$12.99/month",
+      price: "$12.99", // Moved price here for easier display below period
+      period: "Starting from /month", // Combined text for clarity
       description: "Advanced features for comprehensive institutional needs.",
       features: [
         "All Standard Plan features",
@@ -67,9 +67,9 @@ const PriceChartSection: React.FC = () => {
     <section id="pricing" className="py-20 px-4 bg-white">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-extrabold text-black mb-12">
-          Flexible Pricing for Every Need
+          We have Flexible Prices for Every Need
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 wrap-anywhere">
           {plans.map((plan, index) => (
             <div
               key={index}
@@ -78,12 +78,12 @@ const PriceChartSection: React.FC = () => {
               <div>
                 <h3 className="text-3xl font-bold text-black mb-4">{plan.name}</h3>
                 <p className="text-lg text-gray-700 mb-4">{plan.description}</p>
-                <p className="text-4xl font-extrabold text-red-600 mb-6">
+
+                <p className="text-xl text-gray-500 mb-2">{plan.period}</p> 
+                <p className="text-5xl font-bold text-red-600 mb-6"> 
                   {plan.price}
-                  {plan.period && <span className="text-xl text-gray-500">{plan.period}</span>}
                 </p>
 
-                
                 <ul className="text-lg text-gray-800 mb-8 space-y-3 text-left">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-center">
@@ -106,7 +106,6 @@ const PriceChartSection: React.FC = () => {
                   ))}
                 </ul>
 
-              
                 {plan.userPricing && (
                   <div className="mt-6 pt-6 border-t border-gray-300">
                     <h4 className="text-xl font-bold text-black mb-4">Pricing by Users:</h4>

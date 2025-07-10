@@ -23,7 +23,6 @@ const Navbar: React.FC = () => {
           />
         </a>
 
-        {/* Hamburger Menu Icon (Mobile) */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-black focus:outline-none">
             <svg
@@ -51,8 +50,6 @@ const Navbar: React.FC = () => {
             </svg>
           </button>
         </div>
-
-        {/* Navigation Links (Desktop) */}
         <div className="hidden md:flex space-x-4">
           <a
             href="#welcome"
@@ -60,7 +57,6 @@ const Navbar: React.FC = () => {
           >
             Welcome
           </a>
-          {/* Corrected href to #about-us */}
           <a
             href="#about"
             className="text-black hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300"
@@ -82,13 +78,12 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu (Conditional Rendering) */}
       {isMenuOpen && (
         <div className="md:hidden mt-2">
           <div className="flex flex-col space-y-2 p-4 bg-gray-100 rounded-md shadow-inner">
             <a
               href="#welcome"
-              onClick={() => setIsMenuOpen(false)} // Close menu on click
+              onClick={() => setIsMenuOpen(false)} 
               className="text-black hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
             >
               Welcome

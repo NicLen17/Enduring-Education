@@ -5,6 +5,7 @@ import PriceChartSection from "./Components/PriceChart";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/NavBar";
 import AboutUsSection from "./Components/About";
+import LearningTopicsPage from "./Components/LearningTopics";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <WelcomeSection />
         <AboutUsSection/>
         <PriceChartSection />
+        <LearningTopicsPage />
         <section
           id="get-started"
           className="relative py-24 px-4 bg-red-800 text-white text-center overflow-hidden"
